@@ -1,0 +1,54 @@
+@import "hero";
+@import "header";
+@import "media";
+@import "animations";
+@import "projects";
+@import "about";
+@import "contact";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #1b263b;
+  color: #e0e1dd;
+
+  .container {
+    scroll-behavior: smooth;
+    scroll-snap-stop: y mandatory;
+
+    section {
+      justify-content: center;
+      text-align: center;
+
+      p {
+        font-size: 1.5rem;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      a:hover {
+        color: #4281a4;
+      }
+    }
+    // Footer
+    .footer {
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.1);
+      margin-top: 0.5em;
+      width: 100%;
+      height: 35px;
+      font-size: 1.2rem;
+      line-height: 1.5em;
+    }
+  }
+}
