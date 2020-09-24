@@ -21,12 +21,12 @@ app.get("/", (req, res) => {
   res.send("Hello");
 });
 
-app.get("/index", (req, res) => {
+app.get("/contact", (req, res) => {
   res.sendFile(path.join(__dirname + "/index.html"));
   console.log(" this is the form that shows");
 });
 
-app.post("/index", (req, res) => {
+app.post("/contact", (req, res) => {
   "use strict";
   async function main() {
     let testAccount = await nodemailer.createTestAccount();
