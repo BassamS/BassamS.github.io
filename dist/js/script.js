@@ -9,3 +9,12 @@ window.addEventListener("scroll", () => {
     header.classList.remove("scrolled");
   }
 });
+
+function hideMenu() {
+  let menuOpen = document.querySelector(".menu-btn").checked;
+
+  if ((menuOpen = true)) {
+    document.querySelector(".menu-btn").checked = false;
+  }
+}
+window.addEventListener("scroll", hideMenu);
