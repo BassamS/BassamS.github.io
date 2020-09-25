@@ -266,9 +266,11 @@
     padding: 20px;
   }
   #contact .container .form-container {
-    text-align: start;
-    width: 300px;
+    width: 220px;
     height: 200px;
+  }
+  #contact .container .form-container .email {
+    font-size: 0.8rem;
   }
 }
 
@@ -481,8 +483,7 @@
 }
 
 #contact .form-container {
-  text-align: start;
-  width: 800px;
+  width: 700px;
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
