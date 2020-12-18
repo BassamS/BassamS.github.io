@@ -118,10 +118,13 @@
   #contact {
     .container {
       .form-container {
-        text-align: start;
-        width: 300px;
+        // text-align: start;
+        width: 220px;
         // height: 580px;
         height: 200px;
+        .email {
+          font-size: 0.8rem;
+        }
       }
     }
   }
